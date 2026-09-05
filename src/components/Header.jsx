@@ -21,29 +21,29 @@ export default function Header(){
 
     return(
         <>
-      <header className= { `fixed top-0 left-0 w-full transition-all duration-300 flex justify-between p-6 ${
+      <header className= { `rounded-lg sticky top-0 left-0 w-full transition-all duration-300 flex justify-between px-6 py-4 ${
         isScrolled ? "bg-white/70 backdrop-blur-md border-b border-white/20 shadow-sm"
                    : "bg-transparent border-b border-transparent"
       } `}
 >
-        <div className="flex gap-2  items-center">
+        <div className="flex gap-2  items-center text-xl font-bold">
           <FaCode/>
-          <h2>MaryCynthia</h2>
+          <h2>Mary<span className="text-[#c81a6e]">Cynthia</span></h2>
         </div>
 
         <div className="">
-            <ul className="flex gap-4">
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Services</li>
-                <li>Contact</li>
+            <ul className="flex gap-4 ">
+                <li className="cursor-pointer font-bold hover:text-[#b70a5d] transition-colors duration-300">Home</li>
+                <li className="cursor-pointer font-bold hover:text-[#b70a5d] transition-colors duration-300">About</li>
+                <li className="cursor-pointer font-bold hover:text-[#b70a5d] transition-colors duration-300">Skills</li>
+                <li className="cursor-pointer font-bold hover:text-[#b70a5d] transition-colors duration-300">Projects</li>
+                <li className="cursor-pointer font-bold hover:text-[#b70a5d] transition-colors duration-300">Services</li>
+                <li className="cursor-pointer font-bold hover:text-[#b70a5d] transition-colors duration-300">Contact</li>
             </ul>
         </div>
 
-        <div className="">
-            <button>Connect</button>
+        <div className="border border-[#c81a6e] px-4 py-1.5 rounded-lg bg-[#c81a6e] text-white  hover:bg-[#b70a5d]">
+            <button className="cursor-pointer font-bold">Connect</button>
         </div>
         
       </header>
