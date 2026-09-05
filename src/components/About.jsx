@@ -24,11 +24,13 @@ export default function About(){
                   <p className="">Practical Projects</p>
                 </div>
              </div>
+
+             <button className="mt-6 border-2 text-sm border-[#c81a6e] px-2 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer">Download CV</button>
              
            </div>
 
            <div className="mt-30">
-             <div className="flex gap-4 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all shadow-lg">
+             <div className="flex gap-4 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">
              
                 <h3 className="text-[#c81a6e] font-bold text-2xl"><FaCode/></h3>
                 <div className="grid gap-2">
@@ -39,20 +41,20 @@ export default function About(){
 
              <div className="grid grid-cols-2 gap-2">
                
-                 <div className="grid gap-2 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all shadow-lg">
+                 <div className="grid gap-2 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">
                     <h3 className="text-[#c81a6e] font-bold text-lg"><FaMagic/></h3>
                     <h2 className="text-[#c81a6e] font-bold text-lg">Clean Code</h2>
                     <p className="text-black">Writing maintainable well-documented code that scales.</p>
                  </div>
                
-                 <div className="grid gap-2 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all shadow-lg">
+                 <div className="grid gap-2 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">
                     <h3 className="text-[#c81a6e] font-bold text-lg"><FiMessageSquare/></h3>
                     <h2 className="text-[#c81a6e] font-bold text-lg">Communication</h2>
                     <p className="text-black">Clear updates, feedback and great teamwork.</p>
                  </div>
             </div>
 
-               <div className="flex  justify-between border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all shadow-lg">
+               <div className="flex  justify-between border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">
                      <div className="">
                         <h2 className="text-[#c81a6e] font-bold text-2xl">100%</h2>
                         <p className="text-black">Client Satisfaction</p>
