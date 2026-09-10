@@ -42,7 +42,7 @@ export default function Header(){
             </ul>
         </div>
 
-        <div className="border border-[#c81a6e] px-4 py-1.5 rounded-lg bg-[#c81a6e] text-white  hover:bg-[#b70a5d]">
+        <div className="cursor-pointer border-2 border-[#c81a6e] px-4 py-1.5 rounded-lg bg-[#c81a6e] text-white  hover:bg-transparent hover:border-2 hover:text-black hover:border-[#c81a6e] transition-colors duration-300">
             <button className="cursor-pointer font-bold">Connect</button>
         </div>
         
