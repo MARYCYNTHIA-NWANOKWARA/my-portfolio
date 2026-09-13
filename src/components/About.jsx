@@ -5,7 +5,7 @@ import { FaMagic } from "react-icons/fa";
 
 export default function About(){
     return(
-        <section className="mt-20 w-[90%] mx-auto py-6 gap-12 grid grid-cols-1 md:grid-cols-2">
+        <section id="about" className="mt-20 w-[90%] mx-auto py-6 gap-12 grid grid-cols-1 md:grid-cols-2">
 
            <div className="">
              <h1 className="font-serif text-5xl font-semibold leading-tight mb-16">About <span className="text-[#c81a6e] text-6xl"> Me</span></h1>
@@ -23,9 +23,12 @@ export default function About(){
                   <h2 className="text-3xl font-bold text-[#c81a6e]">5+</h2>
                   <p className="">Practical Projects</p>
                 </div>
-             </div>
-
-             <button className="mt-6 border-2 text-sm border-[#c81a6e] px-2 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer">Download CV</button>
+             </div><br/>
+             
+             <span className="">
+               <a href="/MaryCynthia_CV.pdf" download="/MaryCynthia_CV.pdf" className=" border-2 text-sm border-[#c81a6e] px-2 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer">Download CV</a>
+             </span>
+             
              
            </div>
 

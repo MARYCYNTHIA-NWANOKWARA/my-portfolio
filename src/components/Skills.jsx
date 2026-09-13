@@ -4,7 +4,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 export default function Skills(){
     return(
-        <section className="mt-22 w-[90%] mx-auto py-6">
+        <section id="skills" className="mt-22 w-[90%] mx-auto py-6">
             <h1 className="font-serif text-5xl font-semibold leading-tight mb-16">My <span className="text-[#c81a6e] text-6xl">Skills</span></h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="grid gap-2 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">

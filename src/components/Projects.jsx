@@ -5,7 +5,7 @@ import { FaGithub, FaLink } from "react-icons/fa";
 export default function Projects(){
    
     return(
-        <section className="mt-22 w-[90%] mx-auto py-6">
+        <section id="projects" className="mt-22 w-[90%] mx-auto py-6">
           <h1 className="font-serif text-5xl font-semibold leading-tight mb-16">My <span className="text-[#c81a6e] text-6xl">Projects</span></h1>
           <p className=""></p>
           <div className="grid p-4 gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="projectsCard">
@@ -17,12 +17,12 @@ export default function Projects(){
                         <h1 className="px-4 text-black mb-5 flex-1 h-18 font-medium text-sm">{project.description}</h1>
                         <div className="flex flex-wrap mb-4 gap-2 px-4">
                             {project.tech.map((tech) =>(
-                                <span key={tech} className=" bg-gray-100 px-4 font-bold py-2 rounded-md text-sm  text-black">{tech}</span>
+                                <span key={`${project.github}- ${tech}`} className=" bg-gray-100 px-4 font-bold py-2 rounded-md text-sm  text-black">{tech}</span>
                             ))}
                         </div>
                         <div className="flex gap-3 px-4 mt-auto py-2">
-                            <a href={project.github} target="_blank" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaGithub className=""/></a>
-                            <a href={project.live} target="_blank" className=" border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer"><FaLink className=""/></a>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaGithub className=""/></a>
+                            <a href={project.live} target="_blank" rel="noopener noreferrer"  className=" border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer"><FaLink className=""/></a>
                         </div>
                     </div>
                 

@@ -123,9 +123,9 @@ const Contact = () => {
            <p className='mt-4 '>Connect With Me</p>
 
            <div className='flex gap-2 -mt-4'>
-            <a href="https://github.com/MARYCYNTHIA-NWANOKWARA" target="_blank" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaGithub className=""/></a>
-            <a href="https://github.com/MARYCYNTHIA-NWANOKWARA" target="_blank" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaLinkedinIn className=""/></a>
-            <a href="https://github.com/MARYCYNTHIA-NWANOKWARA" target="_blank" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaTiktok className=""/></a>
+            <a href="https://github.com/MARYCYNTHIA-NWANOKWARA" target="_blank" rel="noopener noreferrer" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaGithub className=""/></a>
+            <a href="https://linkedin.com/in/marycynthia-nwanokwara-a08812407" target="_blank" rel="noopener noreferrer" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaLinkedinIn className=""/></a>
+            <a href="https://tiktok.com/@tiastech__" target="_blank" rel="noopener noreferrer" className="border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaTiktok className=""/></a>
            </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ const projects = [
        
     },
     {
-       id:1,
+       id:2,
        title:"E-commerce Store",
        description: "A dynamic e-commerce website built with JavaScript and Tailwind CSS for browsing and purchasing office essentials.",
        tech: ["JavaScript", "TailwindCSS", "HTML5"],
@@ -24,7 +24,7 @@ const projects = [
        
     },
     {
-       id:1,
+       id:3,
        title:"Birthday Celebration Website",
        description: "A personalized interactive multi-paged birthday website created as a digital celebration for a friend using HTML, CSS and JavaScript.",
        tech: ["HTML5", "CSS", "Javascript"],
