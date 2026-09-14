@@ -2,6 +2,14 @@ import{ useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaEnvelope, FaGithub, FaLinkedinIn, FaTiktok } from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
+import { motion } from "framer-motion" 
+
+const fadeUp = {
+  hidden:{opacity: 0, y:40},
+  show:{opacity:1, y:0,
+    transition:{duration:0.6}
+  }
+}
 
 const Contact = () => {
   const form = useRef();
@@ -36,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="mt-22 w-[90%] mx-auto py-6">
+    <motion.section id="contact" variants = {fadeUp} initial="hidden" whileInView="show" viewport={{once:true, amount:0.2}} className="mt-22 w-[90%] mx-auto py-6">
       
         <h1 className="font-serif text-5xl font-semibold leading-tight mb-4 ">Contact <span className="text-[#c81a6e] text-6xl">Me</span></h1>
         <p className=" text-black mb-18 font-semibold ">Have a project in mind? Let's talk.</p>
@@ -129,7 +137,7 @@ const Contact = () => {
            </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,11 +1,18 @@
 import { FaCode } from "react-icons/fa";
 import { FiMessageSquare} from "react-icons/fi";
 import { FaMagic } from "react-icons/fa";
+import { motion } from "framer-motion" 
 
+const fadeUp = {
+  hidden:{opacity: 0, y:40},
+  show:{opacity:1, y:0,
+    transition:{duration:0.6}
+  }
+}
 
 export default function About(){
     return(
-        <section id="about" className="mt-20 w-[90%] mx-auto py-6 gap-12 grid grid-cols-1 md:grid-cols-2">
+        <motion.section variants = {fadeUp} initial="hidden" whileInView="show" viewport={{once:true, amount:0.2}} id="about" className="mt-20 w-[90%] mx-auto py-6 gap-12 grid grid-cols-1 md:grid-cols-2">
 
            <div className="">
              <h1 className="font-serif text-5xl font-semibold leading-tight mb-16">About <span className="text-[#c81a6e] text-6xl"> Me</span></h1>
@@ -73,6 +80,6 @@ export default function About(){
                </div>
              
            </div>
-        </section>
+        </motion.section>
     )
 }

@@ -1,5 +1,13 @@
 import { FaEnvelope, FaGithub, FaHeart, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot, FaTiktok } from "react-icons/fa6";
+import { motion } from "framer-motion" 
+
+const fadeUp = {
+  hidden:{opacity: 0, y:40},
+  show:{opacity:1, y:0,
+    transition:{duration:0.6}
+  }
+}
 
 export default function Footer(){
 
@@ -12,7 +20,7 @@ export default function Footer(){
     }
 
     return(
-        <section id="footer" className="mt-22 w-[90%] mx-auto py-6 ">
+        <motion.section id="footer" variants = {fadeUp} initial="hidden" whileInView="show" viewport={{once:true, amount:0.2}} className="mt-22 w-[90%] mx-auto py-6 ">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between">
 
               <div className="">
@@ -59,6 +67,6 @@ export default function Footer(){
                 <p className="mt-10">&copy; 2026 Nwanokwara MaryCynthia. All rights reserved</p>
                 <p className="flex items-center gap-1 mt-10">Built with <FaHeart className="text-pink-600"/> using React & Tailwind CSS.</p>
             </div>
-        </section>
+        </motion.section>
     )
 }

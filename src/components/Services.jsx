@@ -1,10 +1,18 @@
 
 import { FaCode, FaMobileAlt } from "react-icons/fa";
 import { FaComment, FaPaintbrush,  FaPuzzlePiece,  FaRocket} from "react-icons/fa6";
+import { motion } from "framer-motion" 
+
+const fadeUp = {
+  hidden:{opacity: 0, y:40},
+  show:{opacity:1, y:0,
+    transition:{duration:0.6}
+  }
+}
 
 export default function  Services(){
     return(
-        <section id="services" className="mt-22 w-[90%] mx-auto py-6">
+        <motion.section variants = {fadeUp} initial="hidden" whileInView="show" viewport={{once:true, amount:0.2}} id="services" className="mt-22 w-[90%] mx-auto py-6">
             <h1 className="font-serif text-5xl font-semibold leading-tight mb-16 ">My <span className="text-[#c81a6e] text-6xl">Services</span></h1>
             <div className=" gap-2">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4  ">
@@ -44,6 +52,6 @@ export default function  Services(){
                 </div>
             </div>
 
-        </section>
+        </motion.section>
     )
 }
