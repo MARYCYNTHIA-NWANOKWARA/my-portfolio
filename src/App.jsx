@@ -8,6 +8,7 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import { motion } from "framer-motion"
 import { ThemeProvider } from "./context/ThemeContext"
+import GalaxyBackground from "./components/GalaxyBackground"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 transition = {{duration:0.6, ease:"easeOut"}
                 }
                 className="dark:bg-black">
+      <GalaxyBackground/>
       <Header/>
       <Home/>
       <About/>

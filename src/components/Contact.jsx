@@ -58,7 +58,7 @@ const Contact = () => {
             name="name" 
             placeholder="Your Name"
             required 
-            className="dark:bg-zinc-700 dark:placeholder-gray-400 w-full placeholder:text-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:border-[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
+            className="dark:shadow-zinc-800 dark:bg-zinc-900 dark:placeholder-gray-400 w-full placeholder:text-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:border-[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
           />
           
           <input 
@@ -66,7 +66,7 @@ const Contact = () => {
             name="email" 
             placeholder="your@email.com"
             required 
-            className="dark:bg-zinc-700 dark:placeholder-gray-400 w-full placeholder:text-gray-600  px-4 py-3 focus:outline-none focus:ring-2 focus:border-[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
+            className="dark:shadow-zinc-800 dark:bg-zinc-900 dark:placeholder-gray-400 w-full placeholder:text-gray-600  px-4 py-3 focus:outline-none focus:ring-2 focus:border-[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
           />
 
           <input 
@@ -74,7 +74,7 @@ const Contact = () => {
             name="title" 
             placeholder="Subject"
             required 
-            className="dark:bg-zinc-700 dark:placeholder-gray-400 w-full placeholder:text-gray-600 text-black  px-4 py-3 focus:outline-none focus:ring-2 focus:border--[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
+            className="dark:shadow-zinc-800 dark:bg-zinc-900 dark:placeholder-gray-400 w-full placeholder:text-gray-600 text-black  px-4 py-3 focus:outline-none focus:ring-2 focus:border--[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
           />
 
           <textarea 
@@ -82,7 +82,7 @@ const Contact = () => {
             rows="5"
             placeholder="Tell me about your project..."
             required 
-            className="dark:bg-zinc-700 dark:placeholder-gray-400 w-full placeholder:text-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:border--[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
+            className="dark:shadow-zinc-800 dark:bg-zinc-900 dark:placeholder-gray-400 w-full placeholder:text-gray-600 px-4 py-3 focus:outline-none focus:ring-2 focus:border--[#c81a6e] focus:ring-[#c81a6e] bg-white   p-4 rounded-xl mb-8  transition-all duration-300 shadow-lg"
           />
 
           {/* This sends the current date/time automatically */}

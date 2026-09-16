@@ -1,6 +1,41 @@
 @import "tailwindcss";
 @custom-variant dark (&:is(.dark *));
 
+@import "tailwindcss";
+
+@theme {
+  /* Keyframes Definition */
+  --keyframes-twinkle: {
+    0%, 100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.2); }
+  };
+  
+  --keyframes-shooting: {
+    0% { 
+      transform: translateX(0) translateY(0) rotate(-45deg); 
+      opacity: 1;
+      width: 0px;
+    }
+    10% {
+      width: 120px;
+    }
+    30% { 
+      transform: translateX(400px) translateY(400px) rotate(-45deg); 
+      opacity: 0;
+      width: 0px;
+    }
+    100% { 
+      transform: translateX(400px) translateY(400px) rotate(-45deg); 
+      opacity: 0;
+      width: 0px;
+    }
+  };
+
+  /* Utility Classes Mapping */
+  --animate-twinkle: twinkle linear infinite;
+  --animate-shooting: shooting linear infinite;
+}
+
 body{
     padding:0;
     margin: 0;
