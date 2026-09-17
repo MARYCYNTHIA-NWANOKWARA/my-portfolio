@@ -43,21 +43,6 @@ export default function Header(){
            setIsOpen(!isOpen)
     }
 
-
-    /*useEffect(() => {
-      const navClose = () => {
-        if(isOpen){
-          setIsOpen(false)
-        }
-      }
-
-      window.addEventListener("scroll" , navClose)
-
-      return () =>{
-        window.removeEventListener("scroll" , navClose)
-      }
-    } , [isOpen])*/
-
     return(
         <>
       <motion.header id="header" className= { `z-50 flex rounded-lg sticky top-0 left-0 w-full transition-all duration-300 justify-between px-6 py-4 ${

@@ -14,7 +14,7 @@ const fadeUp = {
 const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState(null); // 'success' or 'error'
+  const [status, setStatus] = useState(null); 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,7 +33,7 @@ const Contact = () => {
           console.log('SUCCESS!', result.text);
           setStatus('success');
           setLoading(false);
-          form.current.reset(); // clear form
+          form.current.reset(); 
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -107,7 +107,7 @@ const Contact = () => {
         </div>
 
         <div className="dark:bg-black p-6 rounded-2xl   h-full flex-col flex space-y-10  bg-white   ">
-          <h1 className='dark:bg-gradient-to-l dark:from-white dark:to-[#c81a6e] dark:bg-clip-text dark:text-transparent text-[#c81a6e] font-bold text-2xl mb-2'>Let's Connect</h1>
+          <h1 className='dark:bg-linear-to-l dark:from-white dark:to-[#c81a6e] dark:bg-clip-text dark:text-transparent text-[#c81a6e] font-bold text-2xl mb-2'>Let's Connect</h1>
           <p className='dark:text-gray-400'>I reply within 2 hours. Tell me about your project, your timeline, and budget... Let's build something users will love.</p>
 
           <div className="dark:bg-zinc-900 dark:border-zinc-800 flex gap-4 border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">

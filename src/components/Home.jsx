@@ -26,7 +26,7 @@ export default function Home(){
 
           <div className="space-y-6 mt-10">
 
-            <p className="dark:bg-zinc-900 dark:text-white dark:border-zinc-700 flex items-center gap-2  border bg-pink-50 text-pink-600 border-pink-600 text-center p-2 rounded-xl text-sm "><FaStar/> Frontend Developer & Fullstack Enthusiast | Based in Anambra, Nigeria.</p>
+            <p className="dark:bg-zinc-900 dark:text-white dark:border-zinc-700 flex items-center gap-2  border bg-pink-50 text-pink-600 border-pink-600 text-center p-2 rounded-xl text-sm "><FaStar/> Frontend Developer & Fullstack Enthusiast | Based in Anambra State, Nigeria.</p>
             <motion.h1 className="dark:text-white text-5xl font-semibold leading-tight font-serif">Building Modern Web Interfaces</motion.h1>
             <p className="text-base dark:text-gray-400 ">I'm <span className="dark:bg-linear-to-r dark:from-white dark:to-[#c81a6e] dark:bg-clip-text dark:text-transparent font-bold">Nwanokwara Marycynthia</span> , a Frontend Developer focused on building fast, scalable and high performance <span className="dark:text-white font-bold">web applications</span> using <span className="dark:text-[#c81a6e] font-bold"> modern Frontend technologies.</span></p>
             <div className="flex gap-2">
@@ -36,7 +36,7 @@ export default function Home(){
 
           </div>
 
-          <div className="">
+          <div>
             <img className="dark:border-zinc-700 h-130 w-130 rounded-2xl shadow-xl border border-pink-600 object-cover" alt="Mary-Cynthia" src={heroPic}/>
           </div>
 

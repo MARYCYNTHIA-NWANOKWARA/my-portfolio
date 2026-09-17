@@ -14,25 +14,25 @@ export default function About(){
     return(
         <motion.section variants = {fadeUp} initial="hidden" whileInView="show" viewport={{once:true, amount:0.2}} id="about" className="mt-20 w-[90%] mx-auto py-6 gap-12 grid grid-cols-1 md:grid-cols-2">
 
-           <div className="">
+           <div>
              <h1 className="dark:text-white font-serif text-5xl font-semibold leading-tight mb-16">About <span className="text-[#c81a6e] text-6xl"> Me</span></h1>
              <div className="space-y-4 ">
-               <p className="dark:text-gray-400">I'm a passionate <span className=" dark:bg-gradient-to-r dark:from-white dark:to-[#c81a6e] dark:bg-clip-text dark:text-transparent font-bold font-bold">Frontend Developer</span> building beautiful, responsive, and user-friendly web apps and websites. I specialize in creating  performant user interfaces that combines beautiful design with exceptional functionality. </p>
+               <p className="dark:text-gray-400">I'm a passionate <span className=" dark:bg-linear-to-r dark:from-white dark:to-[#c81a6e] dark:bg-clip-text dark:text-transparent  font-bold">Frontend Developer</span> building beautiful, responsive, and user-friendly web apps and websites. I specialize in creating  performant user interfaces that combines beautiful design with exceptional functionality. </p>
                <p className="dark:text-gray-400">My expertise spans the entire frontend ecosystem. from Javascript and React to modern CSS frameworks. I'm commited to writing <span className="dark:text-white font-bold"> clean, maintainable code</span> and staying current with the latest web technologies. </p>
                <p className="dark:text-gray-400">When i'm not coding, you'll find me contributing to open sources, speaking at events or exploring <span className="dark:text-[#c81a6e] font-bold">new design trends.</span></p>
              </div>
              <div className="mt-10 w-[80%] mx-auto flex justify-between">
-                <div className="">
+                <div>
                   <h2 className="text-3xl font-bold text-[#c81a6e]">6+</h2>
                   <p className="dark:text-gray-400">Months of experience</p>
                 </div>
-                <div className="">
+                <div>
                   <h2 className="text-3xl font-bold text-[#c81a6e]">5+</h2>
                   <p className="dark:text-gray-400">Practical Projects</p>
                 </div>
              </div><br/>
              
-             <span className="">
+             <span>
                <a href="/MaryCynthia_CV.pdf" download="/MaryCynthia_CV.pdf" className="dark:hover:border-white border-2 text-sm border-[#c81a6e] px-2 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer">Download CV</a>
              </span>
              
@@ -65,15 +65,15 @@ export default function About(){
             </div>
 
                <div className="dark:bg-zinc-900 dark:border-zinc-400 flex  justify-between border bg-pink-50 text-pink-600 border-pink-600 p-4 rounded-xl mb-6 hover:scale-[1.03] transition-all duration-300 shadow-lg">
-                     <div className="">
+                     <div>
                         <h2 className="text-[#c81a6e] font-bold text-2xl">100%</h2>
                         <p className="dark:text-gray-200 text-black">Client Satisfaction</p>
                      </div>
-                     <div className="">
+                     <div>
                         <h2 className="text-[#c81a6e] font-bold text-2xl">24/7</h2>
                         <p className="dark:text-gray-200 text-black">Support Available</p>
                      </div>
-                     <div className="">
+                     <div>
                         <h2 className="text-[#c81a6e] font-bold text-2xl">Fast</h2>
                         <p className="dark:text-gray-200 text-black">Delivery Time</p>
                      </div>

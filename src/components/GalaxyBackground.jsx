@@ -31,7 +31,7 @@ export default function GalaxyBackground() {
     return () => observer.disconnect();
   }, []);
 
-  // Galaxy only appears in dark mode
+ 
   if (!isDark) {
     return null;
   }
@@ -72,7 +72,6 @@ export default function GalaxyBackground() {
         }}
       >
 
-        {/* STARS */}
 
         {STARS.map((star) => (
           <div
@@ -101,7 +100,7 @@ export default function GalaxyBackground() {
           />
         ))}
 
-        {/* SOFT PINK GLOW */}
+       
 
         <div
           style={{
@@ -121,7 +120,6 @@ export default function GalaxyBackground() {
           }}
         />
 
-        {/* SOFT PURPLE GLOW */}
 
         <div
           style={{

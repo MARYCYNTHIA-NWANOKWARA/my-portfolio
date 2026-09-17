@@ -41,8 +41,8 @@ export default function Projects(){
                             ))}
                         </div>
                         <div className="flex gap-3 px-4 mt-auto py-2">
-                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="dark:border-white dark:bg-white dark:text-black dark:hover:bg-[#c81a6e] dark:hover:border-[#c81a6e] dark:hover:text-white border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaGithub className=""/></a>
-                            <a href={project.live} target="_blank" rel="noopener noreferrer"  className="dark:bg-[#c81a6e] dark:text-white dark:hover:bg-white dark:hover:border-white dark:hover:text-black border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer"><FaLink className=""/></a>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="dark:border-white dark:bg-white dark:text-black dark:hover:bg-[#c81a6e] dark:hover:border-[#c81a6e] dark:hover:text-white border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg hover:bg-[#c81a6e] transiton-all duration-300 cursor-pointer text-black  hover:text-white"><FaGithub/></a>
+                            <a href={project.live} target="_blank" rel="noopener noreferrer"  className="dark:bg-[#c81a6e] dark:text-white dark:hover:bg-white dark:hover:border-white dark:hover:text-black border-2 text-sm border-[#c81a6e] px-4 py-2 font-semibold rounded-lg bg-[#c81a6e] text-white  hover:bg-white  hover:text-black transiton-all duration-300 cursor-pointer"><FaLink/></a>
                         </div>
                     </motion.div>
                 
